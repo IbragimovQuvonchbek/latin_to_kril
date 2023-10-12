@@ -3,7 +3,7 @@ from transliterate import to_latin, to_cyrillic
 from telegram import Update
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, CallbackContext
 
-TOKEN = "6464944022:AAFWKR9DghZocnZNAbm243TR14IQJxkwsRY"
+TOKEN = "Your_token"
 updater = Updater(TOKEN)
 dispatcher = updater.dispatcher
 
